@@ -1,0 +1,91 @@
+{
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::nlohmann_json_af9f1bc1320f4be3a31ec1e2ed3a87ab_release_v3.11.3_external"] = {
+            version = "v3.11.3",
+            sysincludedirs = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab\include]]
+            },
+            license = "MIT"
+        },
+        ["xmake::cpr_3c77f95842ff4659871a88c5207ae792_release_1.10.5_external"] = {
+            libfiles = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\lib\cpr.lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\include]]
+            },
+            links = {
+                "cpr"
+            },
+            static = true,
+            version = "1.10.5",
+            linkdirs = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\lib]]
+            },
+            license = "MIT"
+        },
+        ["xmake::libcurl_5cd5aeb180e6462c970c81ac7924f2c6_release_8.7.1_external"] = {
+            defines = "CURL_STATICLIB",
+            version = "8.7.1",
+            linkdirs = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib]]
+            },
+            license = "MIT",
+            libfiles = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib\libcurl.lib]]
+            },
+            syslinks = {
+                "advapi32",
+                "crypt32",
+                "wldap32",
+                "winmm",
+                "ws2_32",
+                "user32"
+            },
+            links = {
+                "libcurl"
+            },
+            static = true,
+            sysincludedirs = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\include]]
+            }
+        }
+    },
+    find_program_fetch_package_system = {
+        cmake = [[E:\VisualStudio\VS\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_E:\\VisualStudio\\VS\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_sourceDependencies"] = true,
+        ["windows_x64_E:\\VisualStudio\\VS\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe__cxx__-nologo_-O2 -fp:fast"] = true,
+        ["windows_x64_E:\\VisualStudio\\VS\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_-DNDEBUG"] = true,
+        ["windows_x64_E:\\VisualStudio\\VS\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_external_includedir"] = true
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver = {
+        ["E:\\VisualStudio\\VS\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    find_programver_fetch_package_system = {
+        ["E:\\VisualStudio\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.29.5-msvc4"
+    },
+    find_program_fetch_package_xmake = {
+        cmake = false
+    },
+    find_program = {
+        ["7z"] = [[E:\xmake\winenv\bin\7z]],
+        ["cl.exe"] = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\cl.exe]],
+        unzip = false,
+        nim = false,
+        zig = false,
+        git = "git",
+        gzip = false,
+        ["E:\\VisualStudio\\VS\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"] = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\cl.exe]]
+    }
+}

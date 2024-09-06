@@ -1,0 +1,72 @@
+{
+    tool_target_web_fetcher_windows_x64_cc = {
+        toolchain_info = {
+            plat = "windows",
+            arch = "x64",
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc"
+        },
+        toolname = "cl",
+        program = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\cl.exe]]
+    },
+    msvc_arch_x64_plat_windows = {
+        arch = "x64",
+        vs_toolset = "14.41.34120",
+        vs = "2022",
+        vcvars = {
+            VSCMD_ARG_app_plat = "Desktop",
+            UniversalCRTSdkDir = [[E:\Windows Kits\10\]],
+            VSInstallDir = [[E:\VisualStudio\VS\]],
+            VSCMD_ARG_TGT_ARCH = "x64",
+            VCIDEInstallDir = [[E:\VisualStudio\VS\Common7\IDE\VC\]],
+            VSCMD_VER = "17.11.0",
+            LIBPATH = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\ATLMFC\lib\x64;E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\lib\x64;E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\lib\x86\store\references;E:\Windows Kits\10\UnionMetadata\10.0.22621.0;E:\Windows Kits\10\References\10.0.22621.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319]],
+            WindowsSdkBinPath = [[E:\Windows Kits\10\bin\]],
+            VS170COMNTOOLS = [[E:\VisualStudio\VS\Common7\Tools\]],
+            VCToolsRedistDir = [[E:\VisualStudio\VS\VC\Redist\MSVC\14.40.33807\]],
+            DevEnvdir = [[E:\VisualStudio\VS\Common7\IDE\]],
+            ExtensionSdkDir = [[C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs]],
+            LIB = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\ATLMFC\lib\x64;E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\lib\x64;E:\Windows Kits\10\lib\10.0.22621.0\ucrt\x64;E:\Windows Kits\10\\lib\10.0.22621.0\\um\x64]],
+            UCRTVersion = "10.0.22621.0",
+            VSCMD_ARG_HOST_ARCH = "x64",
+            VCToolsInstallDir = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\]],
+            VCToolsVersion = "14.41.34120",
+            WindowsSdkDir = [[E:\Windows Kits\10\]],
+            WindowsSDKVersion = "10.0.22621.0",
+            VCInstallDir = [[E:\VisualStudio\VS\VC\]],
+            WindowsLibPath = [[E:\Windows Kits\10\UnionMetadata\10.0.22621.0;E:\Windows Kits\10\References\10.0.22621.0]],
+            WindowsSdkVerBinPath = [[E:\Windows Kits\10\bin\10.0.22621.0\]],
+            INCLUDE = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\include;E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\ATLMFC\include;E:\VisualStudio\VS\VC\Auxiliary\VS\include;E:\Windows Kits\10\include\10.0.22621.0\ucrt;E:\Windows Kits\10\\include\10.0.22621.0\\um;E:\Windows Kits\10\\include\10.0.22621.0\\shared;E:\Windows Kits\10\\include\10.0.22621.0\\winrt;E:\Windows Kits\10\\include\10.0.22621.0\\cppwinrt]],
+            VisualStudioVersion = "17.0",
+            PATH = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64;E:\VisualStudio\VS\Common7\IDE\VC\VCPackages;E:\VisualStudio\VS\Common7\IDE\CommonExtensions\Microsoft\TestWindow;E:\VisualStudio\VS\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;E:\VisualStudio\VS\MSBuild\Current\bin\Roslyn;E:\VisualStudio\VS\Team Tools\DiagnosticsHub\Collector;E:\Windows Kits\10\bin\10.0.22621.0\\x64;E:\Windows Kits\10\bin\\x64;E:\VisualStudio\VS\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;E:\VisualStudio\VS\Common7\IDE\;E:\VisualStudio\VS\Common7\Tools\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;E:\Windows Kits\10\Windows Performance Toolkit\;E:\xmake;E:\VS Code\MinGW\bin;E:\Node\;E:\Git\Git\cmd;E:\Python\Scripts\;E:\Python\;C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\Microsoft\WindowsApps;E:\VS Code\MinGW_plus\mingw64\bin;E:\VS Code\Microsoft VS Code\bin;C:\Users\Administrator.DESKTOP-A073ESA\AppData\Roaming\npm;E:\VisualStudio\VS\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;E:\VisualStudio\VS\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;E:\VisualStudio\VS\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;E:\VisualStudio\VS\VC\vcpkg]]
+        },
+        plat = "windows",
+        __global = true,
+        vcarchs = {
+            "arm64",
+            "x64",
+            "x86"
+        },
+        vs_sdkver = "10.0.22621.0"
+    },
+    tool_target_web_fetcher_windows_x64_cxx = {
+        toolchain_info = {
+            plat = "windows",
+            arch = "x64",
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc"
+        },
+        toolname = "cl",
+        program = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\cl.exe]]
+    },
+    tool_target_web_fetcher_windows_x64_ld = {
+        toolchain_info = {
+            plat = "windows",
+            arch = "x64",
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc"
+        },
+        toolname = "link",
+        program = [[E:\VisualStudio\VS\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe]]
+    }
+}

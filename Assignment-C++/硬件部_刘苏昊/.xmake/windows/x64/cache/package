@@ -1,0 +1,55 @@
+{
+    nlohmann_json = {
+        license = "MIT",
+        __requirestr = "nlohmann_json",
+        sysincludedirs = [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab\include]],
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab\bin]]
+            }
+        },
+        installdir = [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab]],
+        version = "v3.11.3"
+    },
+    cpr = {
+        envs = {
+            PATH = {
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\bin]],
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cmake\3.29.2\ae2ca291915949809139117c15e1db8a\bin]],
+                [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\bin]]
+            }
+        },
+        __requirestr = "cpr",
+        linkdirs = {
+            [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\lib]],
+            [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib]]
+        },
+        defines = "CURL_STATICLIB",
+        links = {
+            "cpr",
+            "libcurl"
+        },
+        __enabled = true,
+        license = "MIT",
+        syslinks = {
+            "advapi32",
+            "crypt32",
+            "wldap32",
+            "winmm",
+            "ws2_32",
+            "user32"
+        },
+        sysincludedirs = {
+            [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\include]],
+            [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\include]]
+        },
+        installdir = [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792]],
+        static = true,
+        libfiles = {
+            [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\c\cpr\1.10.5\3c77f95842ff4659871a88c5207ae792\lib\cpr.lib]],
+            [[C:\Users\Administrator.DESKTOP-A073ESA\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib\libcurl.lib]]
+        },
+        version = "1.10.5"
+    }
+}
